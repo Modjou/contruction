@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background: #A67E2E;
+}
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image:  url("images/fond.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    /*background: url("images/header.jpg") no-repeat center fixed; 
+    background-size: cover;
+    opacity: 1;
+    filter:alpha(opacity=1);*/
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo{
+    padding: 15px 20px; 
+}
+.logo img{
+    width: 60px;
+    float: left;
+    height: auto;
+    color: black;
+}
+.welcom-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcom-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.card{
+    max-width: 98%;
+    margin: 0 auto;
+}
+.welcom-text .divider{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.513);
+}
+.welcom-text .contenue{
+    position: absolute;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .welcom-text .contenue h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 38px;
+
+}
+.welcom-text .contenue h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.card{
+    max-width: 98%;
+    margin: 0 auto;
+}
+/*profil*/
+section{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 2000px;
+    margin: 0 auto;
+}
+.cover_profile{
+    width: 100%;
+    border: 1px solid #570906;
+    height: 300px;
+}
+.cover_profile .cover{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+.cover_profile .cover img{
+    width: 100%;
+    height: 500px;
+}
+.cover_profile .profile{
+    position:relative;
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 220px;
+    overflow:hidden;
+}
+/*.profile img{
+    /*position:absolute;
+    width:100%;*/
+    /*top:0; left:0;
+    float: left;
+    margin-right: 700px;
+    width: 200px;
+    height: 220px;
+    overflow:hidden;
+}*/
+/*les formulaires*/
+.container{
+    font-size: 100%;
+	background: white;
+}
+.formulaire{
+	color: #BD8D46;
+	text-align: center;
+	border: 20px solid #570906;
+	/*border-bottom: none;*/
+	border-radius: 10px 10px 0px 0px;
+    padding: 50px;
+    width: 80%;
+}
+form, .content {
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	border: 5px solid #A67E2E;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: center;
+	margin: 3px;
+}
+.input-group input {
+	height: 50px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #A67E2E;
+	border: none;
+	border-radius: 5px;
+}
+/*.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+}
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+textarea{
+    width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	border: 5px solid #A67E2E;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
