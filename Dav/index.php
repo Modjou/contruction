@@ -14,8 +14,8 @@
     <header>
         <?php include 'views/navbarD.php'; ?>
          <div class="welcom-text">
-                <h2 class="text-center">Bienvenu chez <span style="color:#3B0405"><i>CO-Entreprise</i></span></h2>
-                <h6> <span style="color:black"> Là où vos rêves deviennent réalité!!!</span> </h6>
+                <h2 class="text-center" style=" text-shadow: 0px 0px 5px white;">Bienvenue chez <span style="color:#3B0405; text-shadow: 0px 0px 5px white;"><i>CO-Entreprise</i></span></h2>
+                <h6> <span style="color:white"> Là où vos rêves deviennent réalité!!!</span> </h6>
                 <a href="inscription.php" class="btn btn-lg btn-outline-info">M'inscrire</a>
                 <a href="connexion.php" class="btn btn-lg btn-outline-primary">Me connecter</a>
             </div>

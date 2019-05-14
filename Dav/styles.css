@@ -156,7 +156,8 @@ section{
 	color: #BD8D46;
 	text-align: center;
 	border: 20px solid #570906;
-	/*border-bottom: none;*/
+    /*border-bottom: none;*/
+    margin: 0 auto;
 	border-radius: 10px 10px 0px 0px;
     padding: 50px;
     width: 80%;
@@ -242,10 +243,9 @@ textarea{
 	border-radius: 0px 0px 10px 10px;
 }
 
-
-
-
-
+footer, footer div {
+    background: #A67E2E !important;
+}
 
 
 

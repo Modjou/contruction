@@ -14,7 +14,7 @@
     <title>inscription</title>
 </head>
 <body>
-    <?php require 'views/navbarD.php';?>
+    <?php require 'views/navbarC.php';?>
     <br>
     <div class="container">
       <div class="formulaire">
